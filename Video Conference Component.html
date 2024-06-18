@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex flex-col md:flex-row h-screen bg-zinc-800 text-white">
+  
+  <div class="flex flex-col items-center bg-zinc-900 p-4 space-y-4 md:w-1/6">
+    <button class="bg-zinc-700 p-2 rounded-full">
+      <img src="https://placehold.co/24x24" alt="Icon" />
+    </button>
+    <button class="bg-zinc-700 p-2 rounded-full">
+      <img src="https://placehold.co/24x24" alt="Icon" />
+    </button>
+    <button class="bg-zinc-700 p-2 rounded-full">
+      <img src="https://placehold.co/24x24" alt="Icon" />
+    </button>
+    <button class="bg-zinc-700 p-2 rounded-full">
+      <img src="https://placehold.co/24x24" alt="Icon" />
+    </button>
+  </div>
+  
+  <div class="flex flex-col md:flex-row flex-1">
+    
+    <div class="flex flex-col flex-1 p-4">
+      <div class="flex justify-between items-center mb-4">
+        <button class="bg-zinc-700 p-2 rounded-full">
+          <img src="https://placehold.co/24x24" alt="Back" />
+        </button>
+        <div class="text-lg font-semibold">System Conference Meeting</div>
+        <button class="bg-zinc-700 p-2 rounded-full">
+          <img src="https://placehold.co/24x24" alt="Add User" />
+        </button>
+      </div>
+      <div class="relative flex-1 bg-zinc-700 rounded-lg overflow-hidden">
+        <video src="nyan.mp4" alt="Video" class="w-full h-full object-cover" autoplay controls></video>
+        <div class="absolute bottom-0 left-0 right-0 p-4 flex justify-center space-x-4">
+          <button class="bg-red-500 p-2 rounded-full">
+            <img src="https://placehold.co/24x24" alt="End Call" />
+          </button>
+          <button class="bg-zinc-700 p-2 rounded-full">
+            <img src="https://placehold.co/24x24" alt="Mute" />
+          </button>
+          <button class="bg-zinc-700 p-2 rounded-full">
+            <img src="https://placehold.co/24x24" alt="Video" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+<div class="flex flex-col md:w-1/3 bg-zinc-900 p-4 space-y-4">
+  <div class="flex justify-between items-center">
+    <div class="text-lg font-semibold">Messages (4)</div>
+    <div class="text-lg font-semibold">Participants</div>
+  </div>
+  <div class="bg-zinc-700 p-4 rounded-lg space-y-4">
+    <div>
+      <div class="text-sm font-semibold">Use of Graphics</div>
+      <div class="flex items-center space-x-2">
+        <div class="w-1/2 bg-zinc-600 h-2 rounded-full">
+          <div class="bg-blue-500 h-2 rounded-full" style="width: 25%;"></div>
+        </div>
+        <div class="w-1/2 bg-zinc-600 h-2 rounded-full">
+          <div class="bg-blue-500 h-2 rounded-full" style="width: 75%;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="space-y-2">
+      <div class="flex items-start space-x-2">
+        <img src="https://placehold.co/40x40" alt="User" class="w-10 h-10 rounded-full" />
+        <div>
+          <div class="text-sm font-semibold">Casey</div>
+          <div class="text-sm">Hello Guys! What's your opinion?</div>
+          <div class="text-xs text-zinc-400">12:02 pm</div>
+        </div>
+      </div>
+      <div class="flex items-start space-x-2">
+        <img src="https://placehold.co/40x40" alt="User" class="w-10 h-10 rounded-full" />
+        <div>
+          <div class="text-sm font-semibold">John</div>
+          <div class="text-sm">Images are better.</div>
+          <div class="text-xs text-zinc-400">12:08 pm</div>
+        </div>
+      </div>
+      <div class="flex items-start space-x-2">
+        <img src="https://placehold.co/40x40" alt="User" class="w-10 h-10 rounded-full" />
+        <div>
+          <div class="text-sm font-semibold">You</div>
+          <div class="text-sm">Yes, it will decrease the loading <img src="https://placehold.co/16x16" alt="Thumbs Up" class="inline-block" /></div>
+          <div class="text-xs text-zinc-400">12:10 pm</div>
+        </div>
+      </div>
+      <div class="flex items-start space-x-2">
+        <img src="https://placehold.co/40x40" alt="User" class="w-10 h-10 rounded-full" />
+        <div>
+          <div class="text-sm font-semibold">Jack</div>
+          <div class="text-sm">Anyone is up for illustrations. I think there are less reliable images according to our brand.</div>
+          <div class="text-xs text-zinc-400">12:15 pm</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex items-center space-x-2 bg-zinc-700 p-4 rounded-lg">
+    <input type="text" placeholder="Write message here" class="flex-1 bg-zinc-600 p-2 rounded-lg focus:outline-none" />
+    <button class="bg-blue-500 p-2 rounded-full">
+      <img src="https://placehold.co/24x24" alt="Send" />
+    </button>
+  </div>
+</div>
+  </div>
+</div>
+  </body>
+</html>
